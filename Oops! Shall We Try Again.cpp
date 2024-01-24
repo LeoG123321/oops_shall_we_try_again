@@ -22,12 +22,12 @@ int main()
 
         cin >> num;
 
-        if (num >= 0 && num <= 100) {
+        if (num >= 0 && num <= 100) {               //Checks if user entered value within 0-100
             cout << "Value: " << num << endl;
-            valid = true;
+            valid = true;                           //Valid number, end loop
         }
         else {
-            cout << "Invalid Value, Try again.\n" << endl;
+            cout << "Invalid Value, Try again.\n" << endl;      //Invalid number, loops
         }
     }
     return 0;
